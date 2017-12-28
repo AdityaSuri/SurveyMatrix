@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Survey Matrix</string>
+    <string name="surveymatrix">Survey Matrix</string>
+    <string name="loading">Loading. . .</string>
+</resources>
