@@ -76,7 +76,7 @@ public class Splash extends AppCompatActivity {
         protected void onPostExecute(String result) {
             // execution of result of Long time consuming operation
             progressDialog.dismiss();
-            Intent intent = new Intent(Splash.this, Registration.class);
+            Intent intent = new Intent(Splash.this, RegisterNewUser.class);
             intent.putExtra("resp", resp);
             if(resp.length()==0)
                 Toast.makeText(Splash.this, "Pleae check your connection and try again.", Toast.LENGTH_LONG).show();
